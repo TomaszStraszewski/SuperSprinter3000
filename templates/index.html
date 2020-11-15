@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Super Sprinter 3000</title>
+</head>
+<body>
+    <h1> Super Spinter 3000</h1>
+    <a href="{{ url_for("add_story_get") }}"> Add new User Story</a>
+        <table>
+           <thead>
+                <tr>
+                    {% for header in table_headers %}
+                            <th>
+                                {{ header }}
+                            </th>
+                    {% endfor %}
+                </tr>
+           </thead>
+        <tbody>
+            {% for user_story in user_stories %}
+                <tr>
+                    {% for key in user_story_keys %}
+                        <td>
+                            {% if key == "title" %}
+                                <a href="{{ url_for("update_story_get", user_story_id=user_story["id"]) }}"> {{ user_story[key] }}</a>
+                                {{ user_story[key] }}
+                            {% elif key == "business" %}
+                                {{ user_story[key] }} points
+                            {% elif key == "estimation" %}
+                                {{ user_story[key] }} h
+                            {% else %}
+                                {{ user_story[key] }}
+                            {% endif %}
+                        </td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+        </tbody>
+        </table>
+
+</body>
+</html>

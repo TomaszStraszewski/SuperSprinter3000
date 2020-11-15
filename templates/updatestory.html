@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if user_story["id"] == "" %}
+        <title>Add new User Story</title>
+    {% else %}
+        <title> Update User Story</title>
+    {% endif %}
+</head>
+<body>
+    {% if user_story["id"] == None %}
+        <h1>Add new User Story</h1>
+        <form action="{{ url_for("add_story_post") }}" method="post">
+    {% else %}
+        <h1> Update User Story</h1>
+        <form action="{{ url_for("update_story_post") }}" method="post">
+    {% endif %}
+        <label for="title"> Story Title:</label>
+        <input type = "text" name = "title" id ="title" value = "{{ user_story["title"] }}">
+        <label for=story">User Story:</label>
+        <label for="story"></label>
+        <textarea name="story" id="story"  >{{ user_story["story"] }} </textarea>
+        <label for="criteria">Acceptance Criteria: </label>
+        <textarea name="criteria" id="criteria" >{{ user_story["criteria"] }}</textarea>
+        <label for ="business"> Business Value: </label>
+        <input type="number" name="business" id = "business" value = "{{ user_story["business"]}}">
+        <label for ="estimation"> Estimation: </label>
+        <input type="number" name="estimation" id = "estimation" value = "{{ user_story["estimation"]}}">
+
+        {% if user_story["id"] != None %}
+                <input type=hidden" name="id" id="id" value="{{ user_story["id"] }}">
+                <label for="status"> Status:</label><br>
+                <select name="status" id="status" >
+                    {% for status in statuses %}
+                        {% if status == user_story["status"]  %}
+                            <option value="{{ status }}" selected> {{ status }}</option>
+                        {% else %}
+                            <option value="{{ status }}">{{ status }}</option>
+                        {% endif %}
+                    {% endfor  %}
+                </select><br>
+                <input type="submit" value="update User Story">
+            {% else %}
+                <input type ="submit" value="Add new User Story">
+        {% endif %}
+
+        </form>
+</body>
+</html>

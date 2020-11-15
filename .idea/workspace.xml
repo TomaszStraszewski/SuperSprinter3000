@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34ebd4ec-7240-44fc-914b-e022193c6627" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="bddefbd2-2d33-495b-a76f-ac56bcefad5d" />
+  <component name="ProjectId" id="1kFWQ3xc2yghGJPvth9XiAJ7K1V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SuperSprinter3000" type="Python.FlaskServer">
+      <option name="flaskDebug" value="true" />
+      <module name="SuperSprinter3000" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\tomek\Desktop\SuperSprinter3000\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34ebd4ec-7240-44fc-914b-e022193c6627" name="Default Changelist" comment="" />
+      <created>1605296799296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605296799296</updated>
+      <workItem from="1605296832351" duration="21131000" />
+      <workItem from="1605424626848" duration="19906000" />
+      <workItem from="1605476906738" duration="150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="266" y="170" key="#Inspections" timestamp="1605307326282">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="266" y="170" key="#Inspections/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605307326282" />
+    <state x="94" y="147" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605426553977">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="94" y="147" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605426553977" />
+    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1605476590974">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605476590974" />
+    <state width="1237" height="207" key="GridCell.Tab.0.bottom" timestamp="1605477057220">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="207" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605477057220" />
+    <state width="1237" height="207" key="GridCell.Tab.0.center" timestamp="1605477057219">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="207" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605477057219" />
+    <state width="1237" height="207" key="GridCell.Tab.0.left" timestamp="1605477057219">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="207" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605477057219" />
+    <state width="1237" height="207" key="GridCell.Tab.0.right" timestamp="1605477057220">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="207" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605477057220" />
+    <state width="1237" height="325" key="GridCell.Tab.1.bottom" timestamp="1605476593702">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.bottom/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605476593702" />
+    <state width="1237" height="325" key="GridCell.Tab.1.center" timestamp="1605476593702">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.center/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605476593702" />
+    <state width="1237" height="325" key="GridCell.Tab.1.left" timestamp="1605476593701">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.left/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605476593701" />
+    <state width="1237" height="325" key="GridCell.Tab.1.right" timestamp="1605476593702">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.right/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605476593702" />
+    <state x="141" y="137" key="SettingsEditor" timestamp="1605297243332">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="141" y="137" key="SettingsEditor/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605297243332" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1605432190978">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605432190978" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SuperSprinter3000$SuperSprinter3000.coverage" NAME="SuperSprinter3000 Coverage Results" MODIFIED="1605476916553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
