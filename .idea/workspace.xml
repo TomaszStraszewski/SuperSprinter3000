@@ -37,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Nowy folder/super-sprinter-3000-python-TomaszStraszewski" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
@@ -69,6 +69,7 @@
       <workItem from="1605296832351" duration="21131000" />
       <workItem from="1605424626848" duration="19906000" />
       <workItem from="1605476906738" duration="150000" />
+      <workItem from="1605477266546" duration="762000" />
     </task>
     <servers />
   </component>
@@ -84,10 +85,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="94" y="147" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605426553977" />
-    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1605476590974">
+    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1605478033134">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605476590974" />
+    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1536.824@0.0.1280.984" timestamp="1605478033134" />
     <state width="1237" height="207" key="GridCell.Tab.0.bottom" timestamp="1605477057220">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
